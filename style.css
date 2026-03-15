@@ -609,6 +609,13 @@ p  { color: var(--gray-600); }
   font-family: var(--font-mono);
 }
 
+/* Internship badge style */
+.job-badge.internship {
+  background: #f0f4ff;
+  color: #3a5bd9;
+  border-color: rgba(58,91,217,.2);
+}
+
 /* ============================================
    PROJECTS SECTION
    ============================================ */
