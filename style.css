@@ -715,6 +715,7 @@ p  { color: var(--gray-600); }
   border-radius: var(--radius);
   padding: 24px 24px;
   display: flex;
+  cursor: pointer;
   align-items: flex-start;
   gap: 18px;
   transition: box-shadow var(--transition), border-color var(--transition), transform var(--transition);
