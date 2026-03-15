@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Yasith Danthasinghe — NOC Engineer</title>
+  <meta name="description" content="Articles on network operations, NOC best practices, and tech insights by Yasith Danthasinghe." />
+  <link rel="canonical" href="https://yasithdanthasinghe.github.io/blog/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 28px;
+    }
+    .blog-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+      text-decoration: none;
+      color: inherit;
+    }
+    .blog-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-6px);
+      border-color: var(--green);
+    }
+    .blog-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--gray-400);
+      letter-spacing: 0.08em;
+    }
+    .blog-tag {
+      background: var(--green-light);
+      color: var(--green);
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.68rem;
+      font-family: var(--font-mono);
+    }
+    .blog-card h3 {
+      font-size: 1.05rem;
+      color: var(--black);
+      line-height: 1.4;
+    }
+    .blog-card p {
+      font-size: 0.9rem;
+      color: var(--gray-600);
+      line-height: 1.7;
+      flex: 1;
+    }
+    .blog-read-more {
+      font-size: 0.82rem;
+      color: var(--green);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--green);
+      font-weight: 500;
+      margin-bottom: 48px;
+      transition: gap var(--transition);
+    }
+    .back-link:hover { gap: 12px; }
+  </style>
+</head>
+<body>
+
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <ul class="nav-links" role="list">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#certifications">Certifications</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="index.html" class="active">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <a href="../index.html" class="back-link">
+          <i class="fa-solid fa-arrow-left"></i> Back to Portfolio
+        </a>
+        <div class="section-header">
+          <span class="section-label">Writing</span>
+          <h1>Blog</h1>
+          <p style="margin-top:12px;">Thoughts on network operations, NOC best practices, and tech.</p>
+        </div>
+
+        <div class="blog-grid">
+
+          <!-- BLOG CARD — copy and paste this for each new post -->
+          <a href="what-does-a-noc-engineer-do.html" class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">NOC</span>
+              <span>March 15, 2026</span>
+              <span>5 min read</span>
+            </div>
+            <h3>What Does a NOC Engineer Do at a Finance Company?</h3>
+            <p>A behind-the-scenes look at day-to-day network operations at People's Leasing and Finance — monitoring, incidents, and keeping the network alive 24/7.</p>
+            <span class="blog-read-more">Read article <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+
+          <!-- Add more blog cards here as you write more posts -->
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-copy">&copy; 2026 Yasith Danthasinghe. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="mailto:yasithselaka90@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/yasithdanthasinghe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/YasithDanthasinghe" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
