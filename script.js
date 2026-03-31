@@ -123,7 +123,7 @@ const linkedInArticles = [
     date: "Mar 31, 2026",
     readTime: "5 min read",
     url: "https://www.linkedin.com/pulse/key-addressing-concepts-computer-networking-yasith-danthasinghe-q1yvc",
-    image: "https://media.licdn.com/dms/image/v2/D5612AQF-Fmb2lXnRTA/article-cover_image-shrink_720_1280/B56Z1FYlCuJYAI-/0/1774985566585?e=1776297600&v=beta&t=0Pq7kWp3isqlY7_S-ebjA6U6HjFfX9593bVBxTCJRZA"
+    image: ""
   }
   // To add a new article, paste this above (inside the [ ]):
   // ,{
