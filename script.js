@@ -127,7 +127,7 @@ const linkedInArticles = [
     tag: "NOC",
     date: "Mar 15, 2026",
     readTime: "5 min read",
-    url: "https://www.linkedin.com/pulse/YOUR-ARTICLE-URL-HERE",
+    url: "https://www.linkedin.com/pulse/key-addressing-concepts-computer-networking-yasith-danthasinghe-q1yvc",
     image: "" // paste image URL here or leave empty
   },
   {
