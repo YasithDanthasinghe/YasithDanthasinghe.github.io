@@ -1164,3 +1164,141 @@ p  { color: var(--gray-600); }
   .navbar, .hero-scroll-hint { display: none; }
   .section { padding: 36px 0; }
 }
+
+/* ============================================
+   BLOG SECTION — LinkedIn Cards
+   ============================================ */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 28px;
+}
+
+.blog-loading {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 64px 0;
+  color: var(--gray-400);
+  font-size: 0.9rem;
+}
+
+.blog-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+}
+
+.blog-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-6px);
+  border-color: var(--green);
+}
+
+.blog-card-cover {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-card-cover-placeholder {
+  width: 100%;
+  height: 180px;
+  background: var(--green-xlight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green);
+  font-size: 2.5rem;
+  opacity: 0.4;
+}
+
+.blog-card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.blog-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.blog-card-tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  background: var(--green-light);
+  color: var(--green);
+  border-radius: 20px;
+}
+
+.blog-card-date {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--gray-400);
+  letter-spacing: 0.06em;
+}
+
+.blog-card-title {
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.blog-card-summary {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.blog-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid var(--gray-200);
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+}
+
+.blog-card-read {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--green);
+  font-weight: 500;
+  transition: gap var(--transition);
+}
+
+.blog-card:hover .blog-card-read {
+  gap: 10px;
+}
+
+.blog-linkedin-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--gray-400);
+}
+
+.blog-linkedin-badge i {
+  color: #0077b5;
+}
