@@ -51,7 +51,6 @@
     navToggle.setAttribute('aria-expanded', String(isOpen));
   });
 
-  // Close menu when a link is clicked
   navList.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navList.classList.remove('open');
@@ -60,7 +59,6 @@
     });
   });
 
-  // Close menu on outside click
   document.addEventListener('click', e => {
     if (!navbar.contains(e.target)) {
       navList.classList.remove('open');
@@ -69,7 +67,7 @@
     }
   });
 
-  /* ---- Fade-in on scroll (IntersectionObserver) ---- */
+  /* ---- Fade-in on scroll ---- */
   const fadeTargets = document.querySelectorAll(
     '.stat-card, .skill-category, .timeline-card, .project-card, ' +
     '.cert-card, .contact-card, .about-text, .about-stats, ' +
@@ -90,24 +88,22 @@
       },
       { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
     );
-
     fadeTargets.forEach(el => observer.observe(el));
   } else {
-    // Fallback: show all immediately
     fadeTargets.forEach(el => el.classList.add('visible'));
   }
 
-  /* ---- Stagger animation delay for grid cards ---- */
+  /* ---- Stagger animation ---- */
   function applyStagger(selector, delay) {
     document.querySelectorAll(selector).forEach((el, i) => {
       el.style.transitionDelay = (i * delay) + 'ms';
     });
   }
 
-  applyStagger('.stat-card',    60);
+  applyStagger('.stat-card',      60);
   applyStagger('.skill-category', 80);
-  applyStagger('.cert-card',    60);
-  applyStagger('.contact-card', 60);
+  applyStagger('.cert-card',      60);
+  applyStagger('.contact-card',   60);
 
 })();
 
@@ -117,8 +113,7 @@
 
 // =============================================
 // ADD YOUR LINKEDIN ARTICLES HERE
-// Every time you write a new article on LinkedIn,
-// just add a new object to this array
+// Newest article at the TOP of the list
 // =============================================
 const linkedInArticles = [
   {
@@ -128,18 +123,18 @@ const linkedInArticles = [
     date: "Mar 15, 2026",
     readTime: "5 min read",
     url: "https://www.linkedin.com/pulse/key-addressing-concepts-computer-networking-yasith-danthasinghe-q1yvc",
-    image: "" // paste image URL here or leave empty
-  },
-  {
-    title: "CCNA Tips That Actually Helped Me Pass",
-    summary: "Practical study advice from someone who completed all three CCNA courses at Cisco Networking Academy.",
-    tag: "CCNA",
-    date: "Mar 20, 2026",
-    readTime: "4 min read",
-    url: "https://www.linkedin.com/pulse/YOUR-SECOND-ARTICLE-URL",
     image: ""
   }
-  // Add more articles here following the same format
+  // To add a new article, paste this above (inside the [ ]):
+  // ,{
+  //   title: "Your New Article Title",
+  //   summary: "Short description of the article.",
+  //   tag: "NOC",
+  //   date: "Apr 1, 2026",
+  //   readTime: "4 min read",
+  //   url: "https://www.linkedin.com/pulse/your-article-url",
+  //   image: ""
+  // }
 ];
 
 // =============================================
@@ -159,15 +154,15 @@ function renderBlogCards() {
   }
 
   grid.innerHTML = linkedInArticles.map(article => `
-    <a href="${article.url}" 
-       target="_blank" 
-       rel="noopener noreferrer" 
+    <a href="${article.url}"
+       target="_blank"
+       rel="noopener noreferrer"
        class="blog-card"
        aria-label="Read: ${article.title} on LinkedIn">
 
       ${article.image
-        ? `<img src="${article.image}" 
-                alt="${article.title}" 
+        ? `<img src="${article.image}"
+                alt="${article.title}"
                 class="blog-card-cover"
                 loading="lazy"
                 onerror="this.style.display='none'" />`
@@ -191,7 +186,7 @@ function renderBlogCards() {
           <span>${article.readTime}</span>
         </div>
         <span class="blog-card-read">
-          Read on LinkedIn 
+          Read on LinkedIn
           <i class="fa-solid fa-arrow-right"></i>
         </span>
       </div>
@@ -201,17 +196,3 @@ function renderBlogCards() {
 }
 
 renderBlogCards();
-```
-
----
-
-## PART 4 — How to Get Your LinkedIn Article URL
-
-Every time you publish an article on LinkedIn:
-
-1. Go to your LinkedIn article
-2. Click **Share** → **Copy link**
-3. The URL looks like:
-```
-https://www.linkedin.com/pulse/what-does-noc-engineer-do-yasith-danthasinghe/
-```
