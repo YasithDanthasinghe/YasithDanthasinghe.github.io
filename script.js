@@ -117,10 +117,10 @@
 // =============================================
 const linkedInArticles = [
   {
-    title: "What Does a NOC Engineer Do at a Finance Company?",
-    summary: "A behind-the-scenes look at day-to-day network operations — monitoring, incidents, and keeping the network alive 24/7.",
-    tag: "NOC",
-    date: "Mar 15, 2026",
+    title: "Key Addressing Concepts in Computer Networking",
+    summary: "Understanding how devices communicate is the first step to mastering networking. From IP addresses to DNS and ports. It all connects.",
+    tag: "Networking",
+    date: "Mar 31, 2026",
     readTime: "5 min read",
     url: "https://www.linkedin.com/pulse/key-addressing-concepts-computer-networking-yasith-danthasinghe-q1yvc",
     image: ""
