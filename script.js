@@ -110,3 +110,107 @@
   applyStagger('.contact-card', 60);
 
 })();
+
+/* ============================================
+   BLOG — LinkedIn Articles
+   ============================================ */
+
+// =============================================
+// ADD YOUR LINKEDIN ARTICLES HERE
+// Every time you write a new article on LinkedIn,
+// just add a new object to this array
+// =============================================
+const linkedInArticles = [
+  {
+    title: "What Does a NOC Engineer Do at a Finance Company?",
+    summary: "A behind-the-scenes look at day-to-day network operations — monitoring, incidents, and keeping the network alive 24/7.",
+    tag: "NOC",
+    date: "Mar 15, 2026",
+    readTime: "5 min read",
+    url: "https://www.linkedin.com/pulse/YOUR-ARTICLE-URL-HERE",
+    image: "" // paste image URL here or leave empty
+  },
+  {
+    title: "CCNA Tips That Actually Helped Me Pass",
+    summary: "Practical study advice from someone who completed all three CCNA courses at Cisco Networking Academy.",
+    tag: "CCNA",
+    date: "Mar 20, 2026",
+    readTime: "4 min read",
+    url: "https://www.linkedin.com/pulse/YOUR-SECOND-ARTICLE-URL",
+    image: ""
+  }
+  // Add more articles here following the same format
+];
+
+// =============================================
+// DO NOT EDIT BELOW THIS LINE
+// =============================================
+function renderBlogCards() {
+  const grid = document.getElementById('blogGrid');
+  if (!grid) return;
+
+  if (linkedInArticles.length === 0) {
+    grid.innerHTML = `
+      <div class="blog-loading">
+        <i class="fa-solid fa-pen-nib"></i>
+        <span>Articles coming soon</span>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = linkedInArticles.map(article => `
+    <a href="${article.url}" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="blog-card"
+       aria-label="Read: ${article.title} on LinkedIn">
+
+      ${article.image
+        ? `<img src="${article.image}" 
+                alt="${article.title}" 
+                class="blog-card-cover"
+                loading="lazy"
+                onerror="this.style.display='none'" />`
+        : `<div class="blog-card-cover-placeholder">
+             <i class="fa-brands fa-linkedin"></i>
+           </div>`
+      }
+
+      <div class="blog-card-body">
+        <div class="blog-card-meta">
+          <span class="blog-card-tag">${article.tag}</span>
+          <span class="blog-card-date">${article.date}</span>
+        </div>
+        <h3 class="blog-card-title">${article.title}</h3>
+        <p class="blog-card-summary">${article.summary}</p>
+      </div>
+
+      <div class="blog-card-footer">
+        <div class="blog-linkedin-badge">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>${article.readTime}</span>
+        </div>
+        <span class="blog-card-read">
+          Read on LinkedIn 
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+
+    </a>
+  `).join('');
+}
+
+renderBlogCards();
+```
+
+---
+
+## PART 4 — How to Get Your LinkedIn Article URL
+
+Every time you publish an article on LinkedIn:
+
+1. Go to your LinkedIn article
+2. Click **Share** → **Copy link**
+3. The URL looks like:
+```
+https://www.linkedin.com/pulse/what-does-noc-engineer-do-yasith-danthasinghe/
