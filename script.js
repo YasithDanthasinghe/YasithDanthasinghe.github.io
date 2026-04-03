@@ -134,7 +134,16 @@
     url: "https://www.linkedin.com/pulse/what-sdn-breaking-down-software-defined-networking-danthasinghe-ufkfc",
     image: "https://media.licdn.com/dms/image/v2/D5612AQH-ttfHHZEPSg/article-cover_image-shrink_720_1280/B56ZqxOTm1IsAI-/0/1763909952795?e=1776902400&v=beta&t=dttqtUdOSZq6Vw7mG_GEjuk28ihbriKcV6DxmKLBZh8"
     }
-
+     
+     ,{
+    title: "Revolutionize Your Revision: How NotebookLM Becomes Every University Student's Ultimate Academic Ally",
+    summary: "NotebookLM isn't just another chatbot; it's a game-changer for how we learn and research. It's already valued by tens of thousands of schools and students for study assistance, writing support, research, and interactive learning.",
+    tag: "AI Tool",
+    date: "Aug 9, 2025",
+    readTime: "5 min read",
+    url: "https://www.linkedin.com/pulse/revolutionize-your-revision-how-notebooklm-becomes-danthasinghe-srvpc",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQHbn3VQPdKVSQ/article-cover_image-shrink_720_1280/B56ZiP7b6GHcAQ-/0/1754761380554?e=1776902400&v=beta&t=zUPS7V5X_uSxFXYbGqdIWNsekFcnvc4Evy0D4emh9S4"
+     }
      
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
