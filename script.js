@@ -127,7 +127,7 @@
     
     ,{
     title: "What is SDN? Breaking Down Software-Defined Networking",
-    summary: "Have you ever tried to manage a massive network of computers? In the traditional way, if you wanted to change how data moved through your network, you had to physically log in to every single switch and router to update them one by one. It was slow. It was expensive. It was prone to human error. So enter Software-Defined Networking (SDN).",
+    summary: "Managing large networks manually is slow, costly, and error-prone—SDN changes that with centralized, intelligent control.",
     tag: "Networking",
     date: "Nov 25, 2025",
     readTime: "5 min read",
@@ -137,7 +137,7 @@
      
      ,{
     title: "Revolutionize Your Revision: How NotebookLM Becomes Every University Student's Ultimate Academic Ally",
-    summary: "NotebookLM isn't just another chatbot; it's a game-changer for how we learn and research. It's already valued by tens of thousands of schools and students for study assistance, writing support, research, and interactive learning.",
+    summary: "NotebookLM is transforming how we learn and research with powerful AI-driven study and writing support.",
     tag: "AI Tool",
     date: "Aug 9, 2025",
     readTime: "5 min read",
@@ -177,7 +177,7 @@
 
 ,{
   title: "Explore More Articles on LinkedIn",
-  summary: "Discover more insights, tutorials, and real-world networking knowledge by visiting my LinkedIn article collection — Yasith Danthasinghe.",
+  summary: "Discover more insights, tutorials, and real-world networking knowledge by visiting my LinkedIn article collection.",
   tag: "BLOG",
   date: "Updated Regularly",
   readTime: "",
