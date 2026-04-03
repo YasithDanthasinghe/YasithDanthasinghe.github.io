@@ -40,6 +40,25 @@
 
   updateNavbar();
 
+   /* ---- Dark mode toggle ---- */
+const darkToggle = document.getElementById('darkToggle');
+
+if (darkToggle) {
+  if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark');
+    darkToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+  }
+
+  darkToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    const isDark = document.body.classList.contains('dark');
+    darkToggle.innerHTML = isDark
+      ? '<i class="fa-solid fa-sun"></i>'
+      : '<i class="fa-solid fa-moon"></i>';
+    localStorage.setItem('darkMode', String(isDark));
+  });
+}
+
   /* ---- Mobile nav toggle ---- */
   const navToggle = document.getElementById('navToggle');
   const navList   = document.getElementById('navLinks');
