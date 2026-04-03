@@ -195,4 +195,4 @@ function renderBlogCards() {
   `).join('');
 }
 
-renderBlogCards();
+document.addEventListener('DOMContentLoaded', renderBlogCards);
