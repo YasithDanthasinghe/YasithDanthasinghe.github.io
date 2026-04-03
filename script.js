@@ -176,9 +176,9 @@
      }
 
 ,{
-  title: "Explore More Articles on LinkedIn",
-  summary: "Discover more insights, tutorials, and real-world networking knowledge by visiting my LinkedIn article collection.",
-  tag: "BLOG",
+  title: "",
+  summary: "",
+  tag: "Article",
   date: "Updated Regularly",
   readTime: "",
   url: "https://www.linkedin.com/in/yasithdanthasinghe/recent-activity/articles/",
