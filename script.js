@@ -147,7 +147,7 @@
 
    ,{
     title: "AI Prompt Engineering for Students: Mastering Academic Success Through Effective AI Communication",
-    summary: "Simply put, prompt engineering is the art and science of crafting effective instructions to guide AI models toward producing the exact output you need. Think of it as learning a new language one that bridges human intent with artificial intelligence capabilities. When done correctly, prompt engineering transforms AI from a hit-or-miss tool into a reliable academic partner that can enhance your productivity, creativity, and learning outcomes.",
+    summary: "Prompt engineering is the art of guiding AI with precise instructions to produce accurate and meaningful results.",
     tag: "AI Prompt Engineering",
     date: "July 29, 2025",
     readTime: "10 min read",
@@ -157,7 +157,7 @@
 
    ,{
     title: "The AI Revolution: 10 Game-Changing Tools Every Network Engineer Must Master in 2025",
-    summary:"Picture this: You're managing a complex network infrastructure when suddenly, an AI assistant alerts you about a potential security threat that would have taken hours to detect manually. Within seconds, it provides root cause analysis, suggests remediation steps, and even predicts the impact on your business operations. This isn't science fiction—it's the reality of modern network engineering powered by AI.",
+    summary:"AI in network engineering can instantly detect threats, provide root cause analysis, suggest fixes, and predict business impact—turning hours of manual work into seconds.",
     tag: "AI Tool",
     date: "July 28, 2025",
     readTime: "10 min read",
@@ -167,7 +167,7 @@
 
    ,{
     title: "What Is a Network Operations Center (NOC) ?",
-    summary:"Imagine your company's network as the nervous system of your business. It's how information flows, how you communicate, and how you operate. A Network Operations Center (NOC) is like the intensive care unit for that nervous system. It's a dedicated team of experts who constantly monitor, manage, and maintain your network to keep it running smoothly.",
+    summary:"A company's network is its nervous system, and the NOC acts like its ICU—monitoring, managing, and maintaining it to ensure smooth operations.",
     tag: "NOC",
     date: "Aug 2, 2024",
     readTime: "10 min read",
