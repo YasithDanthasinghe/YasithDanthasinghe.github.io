@@ -144,7 +144,16 @@
     url: "https://www.linkedin.com/pulse/revolutionize-your-revision-how-notebooklm-becomes-danthasinghe-srvpc",
     image: "https://media.licdn.com/dms/image/v2/D5612AQHbn3VQPdKVSQ/article-cover_image-shrink_720_1280/B56ZiP7b6GHcAQ-/0/1754761380554?e=1776902400&v=beta&t=zUPS7V5X_uSxFXYbGqdIWNsekFcnvc4Evy0D4emh9S4"
      }
-     
+
+   ,{
+    title: "AI Prompt Engineering for Students: Mastering Academic Success Through Effective AI Communication",
+    summary: "Simply put, prompt engineering is the art and science of crafting effective instructions to guide AI models toward producing the exact output you need. Think of it as learning a new language one that bridges human intent with artificial intelligence capabilities. When done correctly, prompt engineering transforms AI from a hit-or-miss tool into a reliable academic partner that can enhance your productivity, creativity, and learning outcomes.",
+    tag: "AI Prompt Engineering",
+    date: "July 29, 2025",
+    readTime: "10 min read",
+    url: "https://www.linkedin.com/pulse/ai-prompt-engineering-students-mastering-academic-yasith-danthasinghe-ztc6c",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQFXZEPAAWw79Q/article-cover_image-shrink_720_1280/B56ZhW2OLYHMAM-/0/1753803713304?e=1776902400&v=beta&t=dDXVeSQou0otbzKgGoc-u1UpStLF8_HlJ_6_xX52kLU"
+     }
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
     //   title: "Your New Article Title",
