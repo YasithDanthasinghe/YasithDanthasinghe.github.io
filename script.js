@@ -164,6 +164,17 @@
     url: "https://www.linkedin.com/pulse/ai-revolution-10-game-changing-tools-every-network-danthasinghe-ooajc",
     image: "https://media.licdn.com/dms/image/v2/D5612AQGoC7cLar9rUg/article-cover_image-shrink_720_1280/B56ZhPd5gMHQAM-/0/1753679896828?e=1776902400&v=beta&t=j_8VNYAHyUy4jkapUM3Y6OLsxTDb9fWeZDAcffd3mMc"
      }
+
+   ,{
+    title: "What Is a Network Operations Center (NOC) ?",
+    summary:"Imagine your company's network as the nervous system of your business. It's how information flows, how you communicate, and how you operate. A Network Operations Center (NOC) is like the intensive care unit for that nervous system. It's a dedicated team of experts who constantly monitor, manage, and maintain your network to keep it running smoothly.",
+    tag: "NOC",
+    date: "Aug 2, 2024",
+    readTime: "10 min read",
+    url: "https://www.linkedin.com/pulse/what-network-operations-center-noc-yasith-danthasinghe-bzknc",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQFPeJjZgWPrkg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1722584494868?e=1776902400&v=beta&t=dArQKkBnRnvf1mS1x-m6HbL9o4OejTCa_dovcw77R5A"
+     }
+     
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
     //   title: "Your New Article Title",
