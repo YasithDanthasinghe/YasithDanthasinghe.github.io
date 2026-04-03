@@ -124,6 +124,18 @@
       url: "https://www.linkedin.com/pulse/key-addressing-concepts-computer-networking-yasith-danthasinghe-q1yvc",
       image: "https://media.licdn.com/dms/image/v2/D5612AQF-Fmb2lXnRTA/article-cover_image-shrink_720_1280/B56Z1FYlCuJYAI-/0/1774985566585?e=1776902400&v=beta&t=0onF3l8R17NIhxWsc2N_EFEiB8irsDVRZVw3AA7RvEo"
     }
+    
+    ,{
+    title: "What is SDN? Breaking Down Software-Defined Networking",
+    summary: "Have you ever tried to manage a massive network of computers? In the traditional way, if you wanted to change how data moved through your network, you had to physically log in to every single switch and router to update them one by one. It was slow. It was expensive. It was prone to human error. So enter Software-Defined Networking (SDN).",
+    tag: "Networking",
+    date: "Nov 25, 2025",
+    readTime: "5 min read",
+    url: "https://www.linkedin.com/pulse/what-sdn-breaking-down-software-defined-networking-danthasinghe-ufkfc",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQH-ttfHHZEPSg/article-cover_image-shrink_720_1280/B56ZqxOTm1IsAI-/0/1763909952795?e=1776902400&v=beta&t=dttqtUdOSZq6Vw7mG_GEjuk28ihbriKcV6DxmKLBZh8"
+    }
+
+     
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
     //   title: "Your New Article Title",
@@ -134,6 +146,7 @@
     //   url: "https://www.linkedin.com/pulse/your-url",
     //   image: ""
     // }
+     
   ];
 
   /* ---- Render blog cards ---- */
