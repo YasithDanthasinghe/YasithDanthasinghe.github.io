@@ -174,6 +174,16 @@
     url: "https://www.linkedin.com/pulse/what-network-operations-center-noc-yasith-danthasinghe-bzknc",
     image: "https://media.licdn.com/dms/image/v2/D5612AQFPeJjZgWPrkg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1722584494868?e=1776902400&v=beta&t=dArQKkBnRnvf1mS1x-m6HbL9o4OejTCa_dovcw77R5A"
      }
+
+,{
+  title: "Explore More Articles on LinkedIn",
+  summary: "Discover more insights, tutorials, and real-world networking knowledge by visiting my LinkedIn article collection.",
+  tag: "BLOG",
+  date: "Updated Regularly",
+  readTime: "",
+  url: "https://www.linkedin.com/in/yasithdanthasinghe/recent-activity/articles/",
+  image: "https://yasithdanthasinghe.github.io/blog-noc.jpg"
+}
      
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
