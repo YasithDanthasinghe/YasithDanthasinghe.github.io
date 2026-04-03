@@ -154,6 +154,16 @@
     url: "https://www.linkedin.com/pulse/ai-prompt-engineering-students-mastering-academic-yasith-danthasinghe-ztc6c",
     image: "https://media.licdn.com/dms/image/v2/D5612AQFXZEPAAWw79Q/article-cover_image-shrink_720_1280/B56ZhW2OLYHMAM-/0/1753803713304?e=1776902400&v=beta&t=dDXVeSQou0otbzKgGoc-u1UpStLF8_HlJ_6_xX52kLU"
      }
+
+   ,{
+    title: "The AI Revolution: 10 Game-Changing Tools Every Network Engineer Must Master in 2025",
+    summary:"Picture this: You're managing a complex network infrastructure when suddenly, an AI assistant alerts you about a potential security threat that would have taken hours to detect manually. Within seconds, it provides root cause analysis, suggests remediation steps, and even predicts the impact on your business operations. This isn't science fiction—it's the reality of modern network engineering powered by AI.",
+    tag: "AI Tool",
+    date: "July 28, 2025",
+    readTime: "10 min read",
+    url: "https://www.linkedin.com/pulse/ai-revolution-10-game-changing-tools-every-network-danthasinghe-ooajc",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQGoC7cLar9rUg/article-cover_image-shrink_720_1280/B56ZhPd5gMHQAM-/0/1753679896828?e=1776902400&v=beta&t=j_8VNYAHyUy4jkapUM3Y6OLsxTDb9fWeZDAcffd3mMc"
+     }
     // TO ADD A NEW ARTICLE paste above this line:
     // ,{
     //   title: "Your New Article Title",
