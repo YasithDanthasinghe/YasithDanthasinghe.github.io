@@ -182,7 +182,7 @@
   date: "Updated Regularly",
   readTime: "",
   url: "https://www.linkedin.com/in/yasithdanthasinghe/recent-activity/articles/",
-  image: "https://yasithdanthasinghe.github.io/blog-noc.jpg"
+  image: "https://yasithdanthasinghe.github.io/blognoc.png"
 }
      
     // TO ADD A NEW ARTICLE paste above this line:
