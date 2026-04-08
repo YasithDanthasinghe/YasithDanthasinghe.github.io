@@ -615,6 +615,13 @@ p  { color: var(--gray-600); }
   color: #3a5bd9;
   border-color: rgba(58,91,217,.2);
 }
+.job-date {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--gray-400);
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
 
 /* ============================================
    PROJECTS SECTION
