@@ -40,6 +40,23 @@
 
   updateNavbar();
 
+   /* ---- Typing animation ---- */
+  const tagline = document.querySelector('.hero-tagline');
+  if (tagline) {
+    const text = tagline.textContent.trim();
+    tagline.textContent = '';
+    tagline.style.minHeight = '1.4em';
+    let i = 0;
+    const type = () => {
+      if (i < text.length) {
+        tagline.textContent += text[i];
+        i++;
+        setTimeout(type, 65);
+      }
+    };
+    setTimeout(type, 1000);
+  }
+
    /* ---- Dark mode toggle ---- */
 const darkToggle = document.getElementById('darkToggle');
 
