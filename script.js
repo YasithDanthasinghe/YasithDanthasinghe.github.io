@@ -142,15 +142,24 @@ if (darkToggle) {
   applyStagger('.cert-card',      60);
   applyStagger('.contact-card',   60);
 
-  /* ============================================
-     BLOG — LinkedIn Articles
-     ============================================ */
 
   /* =============================================
+     BLOG — LinkedIn Articles
      ADD YOUR LINKEDIN ARTICLES HERE
      Newest article at the TOP of the list
      ============================================= */
   const linkedInArticles = [
+    {
+      title: "Understanding the “Golden SAML” Threat in Simple Terms",
+      summary: "Golden SAML” style attack is actively targeting FortiGate firewalls, allowing attackers to log in as admins without passwords",
+      tag: "CyberSecurity",
+      date: "April 18, 2026",
+      readTime: "4 min read",
+      url: "https://www.linkedin.com/pulse/understanding-golden-saml-threat-simple-terms-yasith-danthasinghe-u80dc",
+      image: "https://media.licdn.com/dms/image/v2/D5612AQFqbiJiCSk0XQ/article-cover_image-shrink_720_1280/B56Z2fDnnNK4AI-/0/1776490020883?e=1778112000&v=beta&t=2gfeGpxVyiBuz_-fWifoYW_7df_iSFGWO5Qt43OAydI"
+    }
+
+     
     {
       title: "Key Addressing Concepts in Computer Networking",
       summary: "Understanding how devices communicate is the first step to mastering networking. From IP addresses to DNS and ports. It all connects.",
