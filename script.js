@@ -158,7 +158,7 @@ if (darkToggle) {
       readTime: "5 min read",
       url: "https://www.linkedin.com/pulse/zero-downtime-network-inside-high-availability-design-danthasinghe-wlz2c",
       image: "https://media.licdn.com/dms/image/v2/D5612AQEFcJPHO-tV2g/article-cover_image-shrink_720_1280/B56Z3.8A0GG0AU-/0/1778098641476?e=1779926400&v=beta&t=nE05zJtL4WMD80Qacx8mR1x681g4yCAva_lqc7zQX4M"
-    },
+      },
 
       {
       title: "Understanding the “Golden SAML” Threat in Simple Terms",
