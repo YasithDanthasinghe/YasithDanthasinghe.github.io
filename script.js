@@ -150,6 +150,16 @@ if (darkToggle) {
      ============================================= */
   const linkedInArticles = [ 
 
+          {
+      title: "Zero Downtime Network: Inside a High-Availability Enterprise Design",
+      summary: "In today’s world, network failure is not an option. This architecture is built for resilience, security, and performance — with dual ISPs, firewall HA, core redundancy, and VLAN segmentation.",
+      tag: "Enterprise Network",
+      date: "May 10, 2026",
+      readTime: "5 min read",
+      url: "https://www.linkedin.com/pulse/zero-downtime-network-inside-high-availability-design-danthasinghe-wlz2c",
+      image: "https://media.licdn.com/dms/image/v2/D5612AQEFcJPHO-tV2g/article-cover_image-shrink_720_1280/B56Z3.8A0GG0AU-/0/1778098641476?e=1779926400&v=beta&t=nE05zJtL4WMD80Qacx8mR1x681g4yCAva_lqc7zQX4M"
+      },
+
       {
       title: "Understanding the “Golden SAML” Threat in Simple Terms",
       summary: "Golden SAML” style attack is actively targeting FortiGate firewalls, allowing attackers to log in as admins without passwords",
@@ -221,11 +231,8 @@ if (darkToggle) {
      }
 
 ,{
-  title: "",
-  summary: "",
   tag: "Article",
   date: "Updated Regularly",
-  readTime: "",
   url: "https://www.linkedin.com/in/yasithdanthasinghe/recent-activity/articles/",
   image: "https://yasithdanthasinghe.github.io/blognoc.png"
 }
